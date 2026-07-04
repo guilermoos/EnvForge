@@ -31,8 +31,6 @@ O EnvForge foi desenvolvido para atender aos seguintes cenários de desenvolvime
 * **Prevenção de Conflitos (Porta Fixa)**: Controle de concorrência que impede a execução simultânea de dois ambientes na mesma porta SSH (`2222`), encerrando montagens e processos ociosos de forma segura antes de iniciar o novo ambiente.
 * **Decodificação de Dependências**: Declaração externa de pacotes a instalar na criação do chroot por meio do arquivo `envforge/packages.txt`.
 
----
-
 ## 📐 Decisões de Arquitetura e Engenharia
 
 A arquitetura do EnvForge foi construída sob princípios de leveza, manutenibilidade e baixo acoplamento:
@@ -56,8 +54,6 @@ O chroot por padrão compartilha o namespace UTS do sistema host, fazendo com qu
 ### 4. Interface de Usuário via Curses (TUI)
 Para manter o gerenciador enxuto e livre de dependências de servidores gráficos locais (como Electron, Qt ou servidores HTTP locais), a interface visual foi desenvolvida utilizando a biblioteca padrão `curses`. O processamento de logs e triggers de pacotes complexos é feito em subprocessos assíncronos e não-bloqueantes de forma a prevenir deadlocks no buffer do sistema operacional.
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem Principal**: Python 3
@@ -66,8 +62,6 @@ Para manter o gerenciador enxuto e livre de dependências de servidores gráfico
 * **Virtualização/Isolamento**: Linux Chroot, Bind Mounts
 * **Serviço de Comunicação**: OpenSSH Server / Client
 * **Empacotamento**: Debian Packaging System (`dpkg-deb`)
-
----
 
 ## 📥 Instalação e Uso
 
