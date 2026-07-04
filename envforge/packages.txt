@@ -1,0 +1,8 @@
+# EnvForge - Lista de Pacotes chroot
+#
+# Adicione os pacotes Debian/Ubuntu a serem instalados durante a criação do chroot.
+# Comentários iniciados por '#' e linhas vazias serão ignorados.
+#
+# NOTA: openssh-server é essencial para a integração com o VS Code Remote - SSH.
+
+openssh-server
