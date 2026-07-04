@@ -8,7 +8,7 @@
   <b>Gerenciador autônomo de ambientes de desenvolvimento chroot isolados e integrados ao VS Code.</b>
 </p>
 
----
+
 
 ## 📋 Descrição do Projeto
 
@@ -16,7 +16,7 @@ O **EnvForge** é uma ferramenta de linha de comando e interface gráfica de ter
 
 O grande diferencial do projeto é o provisionamento automático de acesso SSH seguro para usuários comuns e a integração transparente com o recurso de desenvolvimento remoto (*Remote - SSH*) do editor VS Code, otimizando o fluxo de trabalho de engenharia de software diretamente do host.
 
----
+
 
 ## 🎯 Público-Alvo e Casos de Uso
 
