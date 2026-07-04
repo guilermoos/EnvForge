@@ -8,15 +8,11 @@
   <b>Gerenciador autônomo de ambientes de desenvolvimento chroot isolados e integrados ao VS Code.</b>
 </p>
 
-
-
 ## 📋 Descrição do Projeto
 
 O **EnvForge** é uma ferramenta de linha de comando e interface gráfica de terminal (TUI) projetada para provisionar, gerenciar e isolar ambientes de desenvolvimento Linux de forma leve e portável. Utilizando a tecnologia de conteinerização nativa `chroot` combinada com imagens de sistema de arquivos altamente comprimidas em `SquashFS`, o EnvForge permite criar sandboxes completas baseadas no Ubuntu em poucos segundos, fornecendo isolamento de processos e bibliotecas sem a necessidade de hipervisores (máquinas virtuais) ou daemons de segundo plano (como o Docker).
 
 O grande diferencial do projeto é o provisionamento automático de acesso SSH seguro para usuários comuns e a integração transparente com o recurso de desenvolvimento remoto (*Remote - SSH*) do editor VS Code, otimizando o fluxo de trabalho de engenharia de software diretamente do host.
-
-
 
 ## 🎯 Público-Alvo e Casos de Uso
 
@@ -25,8 +21,6 @@ O EnvForge foi desenvolvido para atender aos seguintes cenários de desenvolvime
 * **Isolamento de Projetos e Dependências**: Desenvolvedores que precisam manter ambientes limpos no sistema host, evitando conflitos de versões de compiladores, runtimes (Python, Node.js, Go) e bancos de dados locais.
 * **Ambientes de Teste de Implantação (DevOps)**: Engenheiros de infraestrutura que necessitam validar scripts de provisionamento e comportamento de aplicações em um sistema operacional limpo e idêntico ao de produção.
 * **Otimização em Hardware Restrito**: Ambientes com limitações de hardware (memória RAM e processamento) onde a execução de máquinas virtuais completas ou múltiplos contêineres Docker geram overhead excessivo no sistema.
-
----
 
 ## 🚀 Principais Funcionalidades
 
